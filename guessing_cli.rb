@@ -9,7 +9,7 @@ def run_guessing_game
         break
       elsif input.chomp != random_num
         print "The computer guessed #{random_num}"
-      elsif input == "exit"
+      elsif input.chomp == "exit"
         break
       end
       break
