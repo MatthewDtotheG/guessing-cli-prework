@@ -6,7 +6,6 @@ def run_guessing_game
       random_num = rand(1..6).to_s
       if input.chomp = random_num
         print "You guessed the correct number!"
-        break
       elsif input.chomp != random_num
         print "The computer guessed #{random_num}"
       elsif input.chomp == "exit"
