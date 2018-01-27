@@ -2,5 +2,5 @@
 def run_guessing_game
   input = ""
   while input
-  input = gets.downcase.strip
+  input = gets.chomp
 end
