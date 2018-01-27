@@ -11,6 +11,5 @@ def run_guessing_game
       elsif input.chomp == "exit"
         break
       end
-      break
   end
 end
