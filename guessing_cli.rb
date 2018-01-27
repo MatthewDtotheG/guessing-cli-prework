@@ -1,10 +1,11 @@
 # Code your solution here!
 def run_guessing_game
   input = ""
-  random_num = rand(1..6)
+  
   while input
   input = gets.chomp
 
+  
   if input == random_num
     print "You guessed the correct number!"
   elsif input != random_num
