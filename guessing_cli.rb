@@ -10,6 +10,5 @@ def run_guessing_game
     puts "The computer guessed #{random_num}"
   elsif input = "exit"
     break
-  break
   end
 end
