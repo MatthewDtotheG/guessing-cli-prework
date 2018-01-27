@@ -2,7 +2,7 @@
 def run_guessing_game
   input = ""
       while input
-      input = gets.chomp.to_i
+      input = gets.to_i
       random_num = rand(1..6)
       if input == random_num
         print "You guessed the correct number!"
